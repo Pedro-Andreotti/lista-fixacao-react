@@ -24,7 +24,9 @@ export default function ListaNomes() {
         {lista.map((item, index) => (
           <li key={index}>
             {item}
-            <button onClick={() => remover(index)}>Remover</button>
+            <button className="remover" onClick={() => remover(index)}>
+              Remover
+            </button>
           </li>
         ))}
       </ul>

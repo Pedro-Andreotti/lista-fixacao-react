@@ -8,7 +8,7 @@ import Tarefas from "./components/Tarefas";
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <h1>Lista de Exercícios React</h1>
 
       <Contador />
