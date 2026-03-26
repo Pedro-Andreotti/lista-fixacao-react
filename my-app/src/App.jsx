@@ -5,6 +5,7 @@ import ListaNomes from "./components/ListaNomes";
 import CadastroCompleto from "./components/CadastroCompleto";
 import ContadorHistorico from "./components/ContadorHistorico";
 import Tarefas from "./components/Tarefas";
+import FormularioCadastro from "./components/FormularioCadastro";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <CadastroCompleto />
       <ContadorHistorico />
       <Tarefas />
+      <FormularioCadastro />
     </div>
   );
 }
